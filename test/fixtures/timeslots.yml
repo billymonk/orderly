@@ -1,0 +1,11 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  start_time: 2025-07-05 20:39:49
+  end_time: 2025-07-05 20:39:49
+  slot_date: 2025-07-05
+
+two:
+  start_time: 2025-07-05 20:39:49
+  end_time: 2025-07-05 20:39:49
+  slot_date: 2025-07-05
