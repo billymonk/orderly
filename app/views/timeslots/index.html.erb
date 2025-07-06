@@ -1,0 +1,15 @@
+<h1>Timeslots</h1>
+
+<div id="timeslots">
+  <% @timeslots.each do |timeslot| %>
+    <%= render timeslot %>
+  <% end %>
+</div>
+
+<h1>Tasks</h1>
+
+<div id="tasks">
+  <% @tasks.each do |task| %>
+    <%= render "timeslots/task", task: task %>
+  <% end %>
+</div>
