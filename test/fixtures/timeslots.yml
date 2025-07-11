@@ -9,3 +9,8 @@ two:
   start_time: 2025-07-05 20:39:49
   end_time: 2025-07-05 20:39:49
   slot_date: 2025-07-05
+
+three:
+  start_time: 2025-07-06 09:00:00
+  end_time: 2025-07-06 10:00:00
+  slot_date: 2025-07-06
