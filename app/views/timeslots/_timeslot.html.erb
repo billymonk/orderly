@@ -1,4 +1,4 @@
-<div id="<%= dom_id timeslot %>">
+<div id="<%= dom_id timeslot %>" data-task-ids="<%= timeslot.tasks.ids %>">
   <p>
     <strong>Start time:</strong>
     <%= timeslot.start_time %>
@@ -13,5 +13,11 @@
     <strong>Date:</strong>
     <%= timeslot.slot_date %>
   </p>
+
+  <div id="<%= dom_id(timeslot, :tasks) %>" class="timeslot-tasks mt-2">
+    <% timeslot.scheduled_tasks.each do |scheduled_task| %>
+      <%= render "scheduled_tasks/scheduled_task", scheduled_task: scheduled_task %>
+    <% end %>
+  </div>
 
 </div>
